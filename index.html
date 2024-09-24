@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florescer</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg bg-colored sticky-top py-4">
+        <div class="container">
+            <h1 class="navbar-brand m-0 custom-title">Florescer</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-principal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-lg-end mt-4 mt-lg-0" id="menu-principal">
+                <ul class="nav nav-pills d-block d-md-flex justify-content-md-between">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link active" href="#sobre">
+                            <i class="bi bi-house-door"></i>
+                            Sobre a floricultura
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#produtos">
+                            <i class="bi bi-calendar-check"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#tipos">
+                            <i class="bi bi-card-text"></i>
+                            Flores
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-bag"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div id="carousel-sobre" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-sobre" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel-sobre" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-sobre" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="300">
+                        <img src="/images/slides/slide-1.jpg" class="d-block w-100" alt="Espaço interno do restaurante">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h2>Flores Que Encantam, Momentos Que Marcam</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eligendi praesentium, sed exercitationem beatae quis at cupiditate obcaecati eaque ratione quo facilis officia quisquam eum provident doloremque voluptas corporis eveniet?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="300">
+                        <img src="/images/slides/slide-2.jpg" class="d-block w-100" alt="Duas taças de vinho">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h2>Beleza e Frescor Direto da Natureza para Você</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eligendi praesentium, sed exercitationem beatae quis at cupiditate obcaecati eaque ratione quo facilis officia quisquam eum provident doloremque voluptas corporis eveniet?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="300">
+                        <img src="/images/slides/slide-3.jpg" class="d-block w-100" alt="Uma mesa com comida">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h2>Demonstre Amor com o Presente Perfeito</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eligendi praesentium, sed exercitationem beatae quis at cupiditate obcaecati eaque ratione quo facilis officia quisquam eum provident doloremque voluptas corporis eveniet?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-sobre" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-sobre" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+            <div class="py-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-5">
+                            <img src="/images/floricultura.jpg" class="d-block w-100 rounded-3" alt="Foto do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="custom-title"><span class="text-colored">Nosso Espaço:</span> Um Refúgio de Beleza e Cores o restaurante</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, harum et aspernatur voluptatum pariatur architecto dolore repudiandae deleniti recusandae corporis error voluptatibus laboriosam voluptas dolor. Dolorem quo quisquam expedita. Doloribus?</p>
+                            <p><strong>Endereço:</strong> Rua das Magnólias, 123 - Centro</p>
+                            <p><strong>Horário de Funcionamento:</strong> Segunda a sábado, das 9h às 18h.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos" class="py-5">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 align-items-md-center">
+                    <div class="col d-flex flex-column align-items-start gap-2 mb-5 mb-lg-0">
+                        <h2 class="fw-bold"><span class="text-colored">Nossos Produtos:</span> Encante-se com a Diversidade das Flores</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium et repellat, sunt iste atque eius quisquam, dolore perferendis, omnis nobis qui sapiente harum nemo error. Doloribus facere nihil modi quidem!</p>
+                    </div>
+
+                    <div class="col">
+                        <div class="row row-cols-1 row-cols-sm-2 g-4">
+                            <div class="col d-flex flex-column gap-2">
+                                <div class="icon-custom d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                    <i class="bi bi-1-square-fill"></i>
+                                </div>
+                                <h3 class="fw-semibold mb-0">Buquê de Rosas</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia commodi vitae quidem omnis cumque odio quo quam fugiat.</p>
+                            </div>
+
+                            <div class="col d-flex flex-column gap-2">
+                                <div class="icon-custom d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                    <i class="bi bi-2-square-fill"></i>
+                                </div>
+                                <h3 class="fw-semibold mb-0">Orquídeas</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia commodi vitae quidem omnis cumque odio quo quam fugiat.</p>
+                            </div>
+
+                            <div class="col d-flex flex-column gap-2">
+                                <div class="icon-custom d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                    <i class="bi bi-3-square-fill"></i>
+                                </div>
+                                <h3 class="fw-semibold mb-0">Flores Secas</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia commodi vitae quidem omnis cumque odio quo quam fugiat.</p>
+                            </div>
+
+                            <div class="col d-flex flex-column gap-2">
+                                <div class="icon-custom d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                    <i class="bi bi-4-square-fill"></i>
+                                </div>
+                                <h3 class="fw-semibold mb-0">Arranjos Personalizados</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia commodi vitae quidem omnis cumque odio quo quam fugiat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tipos" class="py-5">
+            <div class="container">
+                <h2 class="text-center custom-title mb-5">Tipos de <span class="text-colored">flores</span></h2>
+                <div>
+                    <nav class="nav nav-pills nav-justified flex-column flex-lg-row nav-cardapio mb-5">
+                        <button type="button" class="fw-bold nav-link active" data-bs-toggle="tab" data-bs-target="#rosas">Rosas</button>
+                        <button type="button" class="fw-bold nav-link" data-bs-toggle="tab" data-bs-target="#orquideas">Orquídeas</button>
+                        <button type="button" class="fw-bold nav-link" data-bs-toggle="tab" data-bs-target="#plantas">Plantas</button>
+                        <button type="button" class="fw-bold nav-link" data-bs-toggle="tab" data-bs-target="#girassol">Girassol</button>
+                        <button type="button" class="fw-bold nav-link" data-bs-toggle="tab" data-bs-target="#flores-campo">Flores do campo</button>
+                    </nav>
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="rosas">
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/rosa-1.webp" class="card-img-top" alt="Rosa">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Buque de 24 Rosas Vermelhas</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$299,90</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$99,97</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/rosa-2.webp" class="card-img-top" alt="Rosa">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Ramalhete de 20 Rosas Vermelhas Veneza</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$188,93</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$62,98,97</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/rosa-3.webp" class="card-img-top" alt="Rosa">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Buquê de 18 Rosas Vermelhas Veneza</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$239,90</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$79,97</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="orquideas">
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/orquidea-1.webp" class="card-img-top" alt="Orquídea">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Orquídea Phalaenopsis Plantada</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$199,90</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$66,63</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/orquidea-1.webp" class="card-img-top" alt="Orquídea">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Orquídea Phalaenopsis Plantada</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$199,90</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$66,63</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/orquidea-1.webp" class="card-img-top" alt="Orquídea">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Orquídea Phalaenopsis Plantada</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$199,90</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$66,63</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="plantas">
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/planta-1.webp" class="card-img-top" alt="Planta">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Lírio da Paz</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$89,90</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$29,97</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/planta-1.webp" class="card-img-top" alt="Planta">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Lírio da Paz</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$89,90</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$29,97</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/planta-1.webp" class="card-img-top" alt="Planta">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Lírio da Paz</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$89,90</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$29,97</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="flores-campo">
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/flores-1.webp" class="card-img-top" alt="Flores">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Buquê primavera das Flores Vermelhas</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$89,90</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$29,97</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/flores-1.webp" class="card-img-top" alt="Flores">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Buquê primavera das Flores Vermelhas</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$89,90</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$29,97</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/flores-1.webp" class="card-img-top" alt="Flores">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Buquê primavera das Flores Vermelhas</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$89,90</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$29,97</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane fade" id="girassol">
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/girassol-1.webp" class="card-img-top" alt="Girassol">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Mega Buquês de Girassóis</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$264,80</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$88,27</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/girassol-1.webp" class="card-img-top" alt="Girassol">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Mega Buquês de Girassóis</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$264,80</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$88,27</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card border-success mb-4 rounded-3 shadow-sm">
+                                        <img src="/images/tipos/girassol-1.webp" class="card-img-top" alt="Girassol">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Mega Buquês de Girassóis</h3>
+                                            <ul class="list-unstyled mt-3 mb-4">
+                                                <li><strong>R$264,80</strong></li>
+                                                <li><strong>3x</strong> de <strong>R$88,27</strong> sem juros</li>
+                                            </ul>
+                                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Entrar em contato</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="pb-5 py-lg-5">
+            <div class="container">
+                <h2 class="text-center custom-title mb-5">Fale <span class="text-colored">conosco</span></h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <form class="p-4 p-lg-5 border rounded-3 shadow">
+                            <div class="form-floating mb-3">
+                                <input type="text" name="nome" id="nome" class="form-control" placeholder="Nome Sobrenome" required>
+                                <label for="nome">Seu nome</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="nome@exemplo" required>
+                                <label for="email">Seu e-mail</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="(11) 91111-1111" required>
+                                <label for="telefone">Seu telefone (opcional)</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <textarea type="text" name="mensagem" id="mensagem" class="form-control" placeholder="Mensagem" required></textarea>
+                                <label for="mensagem">Sua mensagem</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-lg w-100 fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-top py-3 bg-colored">
+        <div class="container">
+            <div class="row justify-content-between align-items-center mb-3 mb-lg-0">
+                <div class="col-md-4 text-center text-start-lg">
+                    <span>© 2024 Florescer</span>
+                </div>
+                <ul class="col-md-4 nav justify-content-center justify-content-lg-end">
+                    <li class="fs-5">
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </li>
+
+                    <li class="fs-5 mx-2">
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li class="fs-5">
+                        <a href="#">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="/lib/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+</body>
+
+</html>

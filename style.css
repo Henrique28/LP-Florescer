@@ -1,0 +1,94 @@
+body {
+    font-family: "Lato", sans-serif;
+    ;
+}
+
+.bg-colored {
+    background-color: #61bd9c;
+}
+
+.navbar .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.navbar .nav-link.active {
+    background-color: #fff;
+    color: #61bd9c;
+}
+
+.navbar .navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.custom-title {
+    font-family: "Playfair Display", serif;
+}
+
+.text-colored {
+    color: #61bd9c;
+}
+
+.nav-cardapio .nav-link {
+    color: #61bd9c;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #61bd9c;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+
+#carousel-sobre img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    background-color: #000000c4;
+    border-radius: 20px;
+}
+
+#produtos{
+    background-color: aliceblue;
+}
+
+#produtos .icon-custom {
+    width: 3rem;
+    height: 3rem;
+    background-color: #61bd9c;
+    color: #fff;
+}
+
+#tipos img{
+    height: 30vh;
+    object-fit: contain;
+}
+
+#contato button {
+    background-color: #61bd9c;
+    color: #fff;
+}
+
+footer * {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    #carousel-sobre img {
+        height: 90vh;
+    }
+}
